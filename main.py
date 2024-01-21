@@ -1,7 +1,8 @@
-m = 6
-l = 1
-for i in range(m):
+l = 6
+for i in range(l):
     for j in range(l):
         print("*", end="\t")
     print()
-    l += 1
+    if l > 0:
+        print()
+        l -= 1
